@@ -1,0 +1,30 @@
+.main-section {
+  background-image: url(../files/background.jpg);
+  height: 85vh;
+}
+.card-section {
+  height: 80vh;
+}
+
+.special-card {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -10;
+}
+.overlay {
+  position: absolute;
+  top: 70%;
+  height: 30%;
+  width: 100%;
+  backdrop-filter: blur(5px);
+  padding: 0.5em;
+}

@@ -1,0 +1,16 @@
+.top-nav {
+  position: sticky !important;
+  top: 0px !important;
+  z-index: 0;
+  border-bottom: 1px hsla(0, 0%, 100%, 0.125) solid;
+  backdrop-filter: blur(16px) saturate(180%) !important;
+}
+.nav-drop {
+  width: 100vw !important;
+  flex-direction: column;
+  background-color: transparent;
+}
+.dropbar {
+  justify-content: space-around;
+  list-style-type: none;
+}
